@@ -21,7 +21,7 @@ type GoogleCloudStorage struct {
 func NewGoogleCloudStorage(serviceAccountFile, bucket string) (*GoogleCloudStorage, error) {
 	var opts []option.ClientOption
 	if serviceAccountFile != "" {
-		opts = append(opts, option.WithServiceAccountFile(serviceAccountFile))
+		opts = append(opts, option.WithCredentialsFile(serviceAccountFile))
 	}
 
 	client, err := storage.NewClient(context.Background(), opts...)
