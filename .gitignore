@@ -1,0 +1,26 @@
+# editors
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Workspace files are user-specific
+*.sublime-workspace
+
+# modules and dependencies
+/vendor/
+/Godeps/
+
+# binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
