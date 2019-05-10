@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/connorvanderhook/cirrus?style=flat-square)](https://goreportcard.com/report/github.com/connorvanderhook/cirrus)
+
 # cirrus 
 A tiny go wrapper for cloud storage services
 
